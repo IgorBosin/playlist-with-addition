@@ -1,2 +1,2 @@
-1. Create App
-2. additional lesson. Monday. #1
+1. additional lesson. Monday. #1
+2. additional lesson. Monday. #2
