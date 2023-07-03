@@ -1,12 +1,11 @@
 import {Fragment} from 'react';
-
-import {Task_1} from "./task_1/Task_1";
+import {Task_2} from "./task_2/Task_2";
 
 export type UserType = {
   [key: string]: { name: string, id: string }
 };
 
-const DATA_7: any = [
+const DATA_7: UserType[] = [
   {u1: {name: 'Gleb', id: '1'}},
   {u2: {name: 'Dima', id: '2'}},
   {u3: {name: 'Svetlana', id: '3'}},
@@ -18,7 +17,7 @@ const DATA_7: any = [
 export const App = () => {
   return (
     <Fragment>
-      <Task_1 />
+      <Task_2 />
     </Fragment>
   );
 };
